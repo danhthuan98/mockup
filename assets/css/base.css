@@ -3,6 +3,10 @@
     --black-color: #000;
     --text-color: #333;
     --border-color: #dbdbdb;
+
+    --header-height: 120px;
+    --navbar-height: 34px;
+    --header-with-search-height: calc(var(--header-height) - var(--navbar-height))
 }
 
 * {
@@ -91,7 +95,7 @@ html {
     background-color: #fe6433;
 }
 
-.btn.btn--size-s{
+.btn.btn--size-s {
     height: 30px;
     font-size: 1.4rem;
     padding: 0 6px;
